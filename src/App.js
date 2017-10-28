@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
+import NewGameButton from './components/NewGameButton'
+import Game from './Game'
 
 class App extends Component {
+
+
   render() {
     return (
       <div className="App">
@@ -11,9 +14,13 @@ class App extends Component {
           <img src="https://www.codester.com/static/uploads/items/630/icon.png" className="App-logo" alt="logo" />
           <Title content="HANGMAN"/>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-Game">
+          <h1>Guess the word ...</h1>
+          <Game />
+        </div>
+        <footer className="App-footer">
+          <NewGameButton />
+        </footer>
       </div>
     );
   }

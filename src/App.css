@@ -14,8 +14,11 @@
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.App-footer {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
 }
 
 .App-intro {
@@ -25,4 +28,34 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.btn {
+  background-color:  #222;
+  color: red;
+  border-width: 1px;
+  border-color: red;
+  border-radius: 5%;
+}
+
+.btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.letter {
+  border-width: 0;
+  border-bottom: 2px solid red;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.actions {
+  font-size: 1.5em;
+  margin: 0.5em;
+  align-items: center;
+}
+
+
+.actions:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
