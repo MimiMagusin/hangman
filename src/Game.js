@@ -34,9 +34,19 @@ import './App.css'
     const showGuess = this.renderWords()
 
       if ( this.wrongGuessCount() > 7) {
-        return <h1> YOU LOOSE! </h1>
+        return(
+          <div>
+            <h1> YOU LOOSE! </h1>
+            <img src='https://res.cloudinary.com/dwgyjfcoy/image/upload/v1509117997/lost_red_ahyjpq.png' alt='You Loose'/>
+          </div>
+        )
       } else if (showGuess === words.split('').join(' ') && words.length > 0 ){
-        return <h1> YOU WIN! </h1>
+          return(
+            <div>
+              <img src='https://res.cloudinary.com/dwgyjfcoy/image/upload/v1509117997/o_n0dmby.png' alt='You Win' />
+              <h1> YOU WIN! </h1>
+            </div>
+          )
       } else {
         return(
           <div>
