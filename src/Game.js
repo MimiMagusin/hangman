@@ -43,7 +43,7 @@ import './App.css'
       } else if (showGuess === words.split('').join(' ') && words.length > 0 ){
           return(
             <div>
-              <img src='https://res.cloudinary.com/dwgyjfcoy/image/upload/v1509117997/o_n0dmby.png' alt='You Win' />
+              <img src='https://res.cloudinary.com/dwgyjfcoy/image/upload/v1509117997/o_n0dmby.png' alt='You Win' className='YouWin' />
               <h1> YOU WIN! </h1>
             </div>
           )
