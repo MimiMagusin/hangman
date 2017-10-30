@@ -7,7 +7,7 @@
   height: 80px;
 }
 
-.YouWin {
+.WinState {
   animation: App-logo-spin 3s 3s linear;
   width: 20%
 }

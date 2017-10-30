@@ -37,13 +37,14 @@ import './App.css'
         return(
           <div>
             <h1> YOU LOOSE! </h1>
-            <img src='https://res.cloudinary.com/dwgyjfcoy/image/upload/v1509117997/lost_red_ahyjpq.png' alt='You Loose'/>
+            <img src='https://res.cloudinary.com/dwgyjfcoy/image/upload/v1509117997/lost_red_ahyjpq.png' alt='You Loose' className='WinState'/>
           </div>
         )
       } else if (showGuess === words.split('').join(' ') && words.length > 0 ){
           return(
             <div>
-              <img src='https://res.cloudinary.com/dwgyjfcoy/image/upload/v1509117997/o_n0dmby.png' alt='You Win' className='YouWin' />
+              <h1> YOU WIN! </h1>
+              <img src='https://res.cloudinary.com/dwgyjfcoy/image/upload/v1509117997/5_dbfmfw.png' alt='You Win' className='WinState' />
               <h1> YOU WIN! </h1>
             </div>
           )
