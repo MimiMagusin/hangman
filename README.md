@@ -1,3 +1,7 @@
+<h1>HANGMAN</h1>
+
+Getting to know React by building the famous hangman game!
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
